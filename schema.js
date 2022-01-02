@@ -115,5 +115,5 @@ const RootMutationType = new GraphQLObjectType({
 
 module.exports = new GraphQLSchema({
     query: RootQueryType,
-    mutation: RootMutationType
+    mutation: RootMutationType,
 })
